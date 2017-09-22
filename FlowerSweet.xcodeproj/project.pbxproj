@@ -15,6 +15,7 @@
 		04290EA91F74DD7A00696C38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04290EA71F74DD7A00696C38 /* LaunchScreen.storyboard */; };
 		04290EB41F74DD7A00696C38 /* FlowerSweetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04290EB31F74DD7A00696C38 /* FlowerSweetTests.swift */; };
 		04290EBF1F74DD7A00696C38 /* FlowerSweetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04290EBE1F74DD7A00696C38 /* FlowerSweetUITests.swift */; };
+		04290ECD1F74E2D100696C38 /* MapForItinerary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04290ECC1F74E2D100696C38 /* MapForItinerary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		04290EBA1F74DD7A00696C38 /* FlowerSweetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlowerSweetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04290EBE1F74DD7A00696C38 /* FlowerSweetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerSweetUITests.swift; sourceTree = "<group>"; };
 		04290EC01F74DD7A00696C38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04290ECC1F74E2D100696C38 /* MapForItinerary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapForItinerary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				04290E9B1F74DD7A00696C38 /* AppDelegate.swift */,
 				04290E9D1F74DD7A00696C38 /* ViewController.swift */,
+				04290ECC1F74E2D100696C38 /* MapForItinerary.swift */,
 				04290E9F1F74DD7A00696C38 /* Main.storyboard */,
 				04290EA51F74DD7A00696C38 /* Assets.xcassets */,
 				04290EA71F74DD7A00696C38 /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04290ECD1F74E2D100696C38 /* MapForItinerary.swift in Sources */,
 				04290E9E1F74DD7A00696C38 /* ViewController.swift in Sources */,
 				04290E9C1F74DD7A00696C38 /* AppDelegate.swift in Sources */,
 				04290EA41F74DD7A00696C38 /* FlowerSweet.xcdatamodeld in Sources */,

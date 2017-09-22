@@ -11,8 +11,9 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBAction func clickButton(_ sender: Any) {
-        print("This is an test project")
+        print("You finished!")
     }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         print("ti si")

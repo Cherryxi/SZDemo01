@@ -10,8 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBAction func clickButton(_ sender: Any) {
+        print("This is an test project")
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("ti si")
         // Do any additional setup after loading the view, typically from a nib.
     }
 

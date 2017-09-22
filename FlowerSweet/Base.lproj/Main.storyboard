@@ -28,11 +28,23 @@
                                     <action selector="clickButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="E4t-1v-wBN"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My label in a new branch" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Z6-e0-kXP">
+                                <rect key="frame" x="37.5" y="102" width="300" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="6TZ-UP-V3b"/>
+                                    <constraint firstAttribute="height" constant="21" id="CDd-dU-d7c"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="pmZ-np-oKg" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="TaR-9U-o7K"/>
                             <constraint firstItem="pmZ-np-oKg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cGB-yW-Siv"/>
+                            <constraint firstItem="4Z6-e0-kXP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="82" id="m2u-Jh-c4e"/>
+                            <constraint firstItem="4Z6-e0-kXP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nZk-ac-lrO"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>

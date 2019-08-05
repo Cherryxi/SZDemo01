@@ -12,6 +12,7 @@ class ViewController: UIViewController {
 
     @IBAction func clickButton(_ sender: Any) {
         print("This is an test project")
+        print("New")
     }
     override func viewDidLoad() {
         super.viewDidLoad()
